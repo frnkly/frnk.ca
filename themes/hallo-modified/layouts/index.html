@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 <main>
-    <div class="block introduction">
+    <div class="block introduction" itemscope="" itemtype="http://schema.org/Person">
         <div class="column left">
             <img src="images/portrait.jpg" class="portrait" alt="Portrait" />
         </div>
@@ -16,7 +16,7 @@
 
             <div class="links">
                 {{- range .Site.Params.links -}}
-                    <a rel="me" href="{{ .url | safeURL }}" title="{{ .title }}">
+                    <a rel="me" href="{{ .url | safeURL }}" title="{{ .title }}" target="_blank">
                         <span class="{{ .iconset | default "fab" }} {{.iconorigin | default "fa" }}-{{ .icon }}"></span>
                     </a>
                 {{- end -}}

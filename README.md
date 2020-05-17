@@ -1,18 +1,10 @@
 # frnk.ca
 
-## Updating content
-
 ```shell
-# Make changes...
+# Running locally.
+hugo serve
 
-# Create new build
+# Publishing updates.
 hugo
-
-# Commit and push to 
-```
-
-## Updating the theme
-
-```shell
-git submodule update --remote --rebase
+git commit -am "..." && git push
 ```
