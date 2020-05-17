@@ -1,6 +1,7 @@
 baseURL = "http://frnk.ca"
 defaultContentLanguage = "en"
 languageCode = "en"
+publishDir = "docs"
 title = "Francis Amankrah"
 theme = "hallo-modified"
 
