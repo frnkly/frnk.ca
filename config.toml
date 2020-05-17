@@ -1,0 +1,38 @@
+baseURL = "http://frnk.ca"
+defaultContentLanguage = "en"
+languageCode = "en"
+title = "Francis Amankrah"
+theme = "hallo-modified"
+
+[Author]
+    name = "Frank"
+
+[params]
+    [params.colors]
+        background = "#fffcf5"
+        foreground = "#333"
+        hover = "#ffe57f"
+        hover_light = "#fff8e1"
+        hover_dark = "#ffab00"
+
+    [[params.links]]
+        icon = "linkedin-in"
+        title = "LinkedIn"
+        url = "http://www.linkedin.com/in/francisamankrah"
+    [[params.links]]
+        icon = "github"
+        title = "Github"
+        url = "https://github.com/frnkly"
+    [[params.links]]
+        icon = "soundcloud"
+        title = "SoundCloud"
+        url = "https://soundcloud.com/frnkly"
+    [[params.links]]
+        icon = "get-pocket"
+        title = "Pocket"
+        url = "https://getpocket.com/@francisamankrah"
+    [[params.links]]
+        iconset = "fas"
+        icon = "envelope"
+        title = "E-mail"
+        url = "mailto:frank@frnk.ca"

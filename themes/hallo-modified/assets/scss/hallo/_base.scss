@@ -1,0 +1,69 @@
+html,
+body {
+    color: $color-foreground;
+    margin: 1rem;
+    padding: 0;
+}
+
+html {
+    font: 18px/1.618 $sans-serif;
+    overflow-y: auto;
+}
+
+body {
+    background-color: $color-background;
+}
+
+a {
+    @include transition(background-color .2s ease-out);
+    background-color: $color-hover-light;
+    color: $color-foreground;
+    font-size: .9rem;
+    margin: 0 3px;
+    padding: 0 5px;
+    text-decoration: none;
+    text-shadow: 1px 1px #eee;
+
+    &:hover {
+        background-color: $color-hover;
+    }
+}
+
+h1 {
+    font-size: 7rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+
+@media screen and (max-width: $break-large) {
+    h1 {
+        font-size: 15vw;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+}
+
+img.portrait {
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 2px solid $color-foreground;
+    margin: 2em 3em;
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    max-height: 300px;
+}

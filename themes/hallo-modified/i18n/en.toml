@@ -1,0 +1,8 @@
+[hello]
+other = "Hello"
+
+[i-am]
+other = "I am"
+
+[generator]
+other = "<a href='https://frnk.ca'>frnk.ca</a> / <a href='https://kwcay.co'>kwcay.co</a>"
