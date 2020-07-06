@@ -1,4 +1,4 @@
-baseURL = "http://frnk.ca"
+baseURL = "https://frnk.ca"
 defaultContentLanguage = "en"
 languageCode = "en"
 publishDir = "docs"
