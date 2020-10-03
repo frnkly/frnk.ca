@@ -6,5 +6,5 @@ hugo serve
 
 # Publishing updates.
 hugo
-git commit -am "..." && git push
+git commit -am "... (a commit message here)" && git push
 ```
